@@ -1,0 +1,72 @@
+@font-face{
+	font-family: 'Poppins-Medium';
+	src: url(Poppins-Medium.ttf);
+}
+
+body{
+	margin: 0;
+	font-family: Poppins-Medium;
+}
+
+nav{
+	height: 120px;
+	width: 100%;
+	background: rgba(54,24,128,0.7);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+nav ul{
+	padding: 0;
+	margin-left: -140px;
+}
+
+nav ul li
+{
+	color: white;
+  	display: inline-block;
+	margin: 30px 10px;
+	text-align: center;
+}
+
+#logo{
+	height: 120px;
+}
+
+#pozadi{
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+#hledat{
+	height: 20px;
+	margin-top: 50px;
+}
+
+#obsah{
+	background-color: white;
+	width: 800px;
+	border-radius: 10px;
+	height: 270px;
+	box-shadow: 0 0 20px #fff;
+
+	position: absolute;
+  left: calc(50% - 400px);
+  top: calc(50% - 125px);
+}
+
+#obsah h2{
+	margin-left: 30px;
+}
+
+#obsah p{
+	margin-left: 30px;
+	width: 750px;
+}
